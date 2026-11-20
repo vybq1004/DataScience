@@ -1,0 +1,59 @@
+@RELATION bank_term_deposit
+
+@ATTRIBUTE age_group {young, adult, middle_aged, senior}
+@ATTRIBUTE balance_band {negative, low, medium, high}
+@ATTRIBUTE housing {no, yes}
+@ATTRIBUTE campaign_band {single, few, many}
+@ATTRIBUTE deposit {no, yes}
+
+@DATA
+young,medium,yes,single,no
+adult,low,yes,single,yes
+adult,low,no,few,yes
+young,high,no,few,yes
+young,low,yes,single,yes
+young,medium,no,single,yes
+adult,negative,yes,many,no
+middle_aged,medium,yes,few,yes
+adult,low,no,many,yes
+middle_aged,medium,no,few,no
+middle_aged,low,yes,many,no
+middle_aged,low,yes,single,no
+middle_aged,medium,no,single,yes
+senior,low,no,few,no
+adult,low,yes,many,no
+middle_aged,high,no,few,no
+adult,medium,no,single,yes
+adult,medium,no,single,no
+senior,low,no,single,yes
+adult,low,yes,single,yes
+young,low,no,few,no
+adult,medium,yes,single,no
+senior,medium,no,few,yes
+young,high,no,few,yes
+adult,negative,no,single,no
+middle_aged,low,yes,single,yes
+middle_aged,negative,no,single,no
+middle_aged,low,yes,single,no
+adult,low,no,many,yes
+young,medium,no,few,yes
+young,low,yes,many,no
+middle_aged,low,no,few,yes
+senior,low,yes,many,yes
+young,medium,yes,single,yes
+senior,low,yes,single,yes
+adult,low,yes,single,no
+senior,high,yes,single,no
+senior,high,yes,single,no
+young,medium,yes,single,no
+middle_aged,low,no,few,no
+middle_aged,low,yes,few,no
+adult,high,no,single,yes
+adult,medium,no,single,yes
+adult,high,yes,few,no
+middle_aged,low,no,single,yes
+adult,high,yes,single,no
+middle_aged,negative,yes,single,no
+senior,low,no,few,no
+adult,low,yes,single,yes
+adult,low,yes,single,no

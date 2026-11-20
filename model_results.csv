@@ -1,0 +1,6 @@
+Algorithm,Accuracy,Precision,Recall,F1-score,ROC AUC
+Naive Bayes,0.54,0.522,0.74,0.589,0.596
+Decision Tree,0.52,0.509,0.55,0.503,0.565
+Logistic Regression,0.56,0.563,0.46,0.5,0.597
+k-Nearest Neighbours,0.5,0.484,0.5,0.483,0.446
+Random Forest,0.54,0.434,0.48,0.443,0.598
